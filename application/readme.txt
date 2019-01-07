@@ -1,0 +1,1 @@
+This folder contain built or external application require to edit staff, view staff
