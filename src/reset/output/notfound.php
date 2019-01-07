@@ -5,7 +5,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background: url(/attendance/images/ara.jpg) no-repeat;
+	background: url(images/ara.jpg) no-repeat;
 	background-size: cover;
 
 
@@ -39,7 +39,7 @@ body{
 }
 </style>
 <script>
-function loaded() {window.setTimeout(function(){ window.location = "/attendance/reset"; },5000);}
+function loaded() {window.setTimeout(function(){ window.location = "reset"; },5000);}
 </script>
 	<head>
 		<meta charset = "utf-8">

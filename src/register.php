@@ -135,13 +135,13 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
 </head>
 <body>
 	<div class="header">
-		<h1><a style="text-decoration:none; color:white;" href="/attendance/">Fingerprint Attendance System</a></h1>
+		<h1><a style="text-decoration:none; color:white;" href="">Fingerprint Attendance System</a></h1>
 	</div>
 	
 	<div class="clearfix">
 		<div class="column menu">
 			<ul>
-				<a href="/attendance/"><li>Back</li></a>
+				<a href=""><li>Back</li></a>
 			</ul>
 		</div>
 		<div class="column content2">

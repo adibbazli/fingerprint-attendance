@@ -6,7 +6,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: url(http://iktihad-malaysia.com.my/attendance/images/ara.jpg) no-repeat;
+	background: url(http://iktihad-malaysia.com.my/images/ara.jpg) no-repeat;
 	background-size: cover;
 }
 
@@ -79,7 +79,7 @@ function loaded() {window.setTimeout(function(){ window.location = "/"; },10000)
 	$datenow = date("D d M", $time);
 	echo "
 			<h1>Goodbye $name.</h1>
-			<img src ='http://iktihad-malaysia.com.my/attendance/photo/$NRIC' alt='profile' class ='box-img'><br>
+			<img src ='http://iktihad-malaysia.com.my/photo/$NRIC' alt='profile' class ='box-img'><br>
 			<b> Name: </b> $name <br>
 			<b> NRIC: </b> $NRIC <br>
 			<b> Type: </b> $type <br>

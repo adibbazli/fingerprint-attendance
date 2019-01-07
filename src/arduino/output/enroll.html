@@ -5,7 +5,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: url(http://iktihad-malaysia.com.my/attendance/images/ara.jpg) no-repeat;
+	background: url(http://iktihad-malaysia.com.my/images/ara.jpg) no-repeat;
 	background-size: cover;
 }
 .box{

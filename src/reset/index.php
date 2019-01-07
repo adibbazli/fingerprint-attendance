@@ -14,7 +14,7 @@ if(isset($_GET["hash"]) and isset($_GET["code"])){
 		$qry = mysqli_fetch_assoc($qry);
 
 		$_SESSION["user"] = $qry["Id"];
-		header("refresh:0; url=/attendance/profile.php");
+		header("refresh:0; url=profile.php");
 		return;
 		}
 		exit;

@@ -11,7 +11,7 @@ if(verify_pass($pass, $cpass)){
 	$sql = "UPDATE login SET password='$passhash'";
 	$con->query($sql);
 }
-else header("refresh:0; url=/attendance/index.php");
+else header("refresh:0; url=index.php");
 
 function verify_pass($pass, $cpass){
 	if($pass == $cpass)

@@ -272,7 +272,7 @@ $message = <<<EOD
                       <td>
                         <p>Hi $name,</p>
                         <p>We've received a request to reset your account password.</p>
-						<p><a href="http://iktihad-malaysia.com.my/attendance/reset/?hash=$hash&code=$code" target="_blank">Click here to change your password.</a></p>
+						<p><a href="http://iktihad-malaysia.com.my/reset/?hash=$hash&code=$code" target="_blank">Click here to change your password.</a></p>
                         <p>You also can copy the link and paste it in your browser</p>
 						<table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
                           <tbody>
@@ -281,7 +281,7 @@ $message = <<<EOD
                                 <table border="0" cellpadding="0" cellspacing="0">
                                   <tbody>
                                     <tr>
-                                      <td> <a href="http://iktihad-malaysia.com.my/attendance/reset/?hash=$hash&code=$code" target="_blank">Reset Password</a> </td>
+                                      <td> <a href="http://iktihad-malaysia.com.my/reset/?hash=$hash&code=$code" target="_blank">Reset Password</a> </td>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -290,7 +290,7 @@ $message = <<<EOD
                           </tbody>
                         </table>
                         <p><b>Did not request this change?</b></p>
-                        <p>If you did not request this change, <a href="http://iktihad-malaysia.com.my/attendance/reset/cancel.php/?hash=$hash&code=$code" target="_blank">let us know.</a></p>
+                        <p>If you did not request this change, <a href="http://iktihad-malaysia.com.my/reset/cancel.php/?hash=$hash&code=$code" target="_blank">let us know.</a></p>
                       </td>
                     </tr>
                   </table>
