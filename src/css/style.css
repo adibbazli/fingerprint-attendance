@@ -1,0 +1,82 @@
+body{
+	background: url(../images/ara.jpg) no-repeat;
+	background-size: cover;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+strong {
+	
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 30px;
+	}
+a {
+	text-decoration:none;
+}
+.par {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0; 
+	right: 0;
+    background-color: grey;
+    color: white;
+    padding: 8px;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	
+}
+.column {
+    float: left;
+    padding: 15px;
+	height: 620px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 20%;
+}
+.content {
+    width: 60%;
+}
+.end {
+	width: 20%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #33b5e5;
+    color: #ffffff;
+	text-align: center;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+
+.logout{
+	padding: 8px;
+    margin-bottom: 8px;
+    background-color: red;
+    color: #ffffff;
+	text-align: center;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	
+}
