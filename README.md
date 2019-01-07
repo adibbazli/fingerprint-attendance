@@ -31,6 +31,8 @@ To run this project, you will need
 • MySQL
 ```
 
+Extract **src** content into your **www** directory and run **ad_39.sql** to create the database.
+
 ## Running the tests
 If plan to run a test directly from source, there is several change that you need to made.
 
@@ -42,6 +44,7 @@ Please make sure that you've change your system host from your machine which is
 [server:ip]	iktihad-malaysia.com.my
 [arduino:ip]	iktihad.com
 ```
+Please be noted that your device should be on same network. Minor change, however can be made for the project to run over the internet.
 
 ### Known Issue
 There is an issue with the board pin, this project will use softwareserial, however the library is made for Arduino. This can be resolve by
@@ -61,6 +64,22 @@ Compiler - ESP8266 Board -> Wemos D1 R2
 
 ## Deployment
 To simulate it in real world environment, you will need a monitor with touchscreen capability as the GUI. PHP will serve as the backend and HTML as the frontend.
+
+### Sitemap
+```
+iktihad-malaysia.com.my - Admin Dashboard
+iktihad.com - Arduino GUI
+```
+
+### Password
+The password for Admin Dashboard is
+```
+admin:makannasi
+```
+You can change the password at */staff.php*.
+
+### Reset Password
+You also can reset the password. Please setup MSMTP beforehand and change your admin email to your email (receiver email).
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
